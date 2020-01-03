@@ -1,0 +1,8 @@
+version: "2"
+services:
+    product-service:
+        build: ./product-service 
+        ports:
+            - 9090:9090
+        volumes:
+            - ./product-service:/go/src/http-grpc-go-kit-demo/product-service:cached
