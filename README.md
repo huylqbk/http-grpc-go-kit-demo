@@ -1,7 +1,9 @@
 # go-kit Rest API (http) and gRPC 
 
 ## Run
-go run product-service/main.go
+- Proto3 install
+- protoc product.proto --go_out=plugins=grpc:product-service/pb
+- go run product-service/main.go
 
 contributor: huylqbk
 
