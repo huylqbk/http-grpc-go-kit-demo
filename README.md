@@ -8,7 +8,7 @@
 contributor: huylqbk
 
 ## Test GRPC:
-- install BloomRPC
+- install BloomRPC](https://github.com/uw-labs/bloomrpc)
 ## Test Http Server 
 ```
 curl -X POST \
